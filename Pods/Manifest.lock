@@ -1,0 +1,61 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - HJJavascriptBridge (0.3.2):
+    - HJJavascriptBridge/HJBridge (= 0.3.2)
+    - HJJavascriptBridge/HJWebView (= 0.3.2)
+  - HJJavascriptBridge/HJBridge (0.3.2):
+    - WebViewJavascriptBridge
+  - HJJavascriptBridge/HJWebView (0.3.2)
+  - HJNetwork (1.0.0):
+    - AFNetworking (~> 3.1.0)
+    - YYModel (~> 1.0.4)
+  - Masonry (1.0.2)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - WebViewJavascriptBridge (6.0.3)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - HJJavascriptBridge (~> 0.3.2)
+  - HJNetwork (= 1.0.0)
+  - Masonry (= 1.0.2)
+  - SDWebImage (= 4.0.0)
+
+SPEC REPOS:
+  "git@172.16.0.245:Finance_SDK/iOS_Loan_Spec.git":
+    - HJJavascriptBridge
+    - HJNetwork
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Masonry
+    - SDWebImage
+    - WebViewJavascriptBridge
+    - YYModel
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  HJJavascriptBridge: 4386eda84b91f27aeb4a829d4d486bd825878b63
+  HJNetwork: 6edbe8701c63bb6554159befcccab471ffddad43
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 470e106431991104b5e97450fdc4ada4f4dfa189
+
+COCOAPODS: 1.5.3

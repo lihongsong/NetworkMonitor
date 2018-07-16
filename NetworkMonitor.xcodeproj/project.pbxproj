@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82BC429A20FC30840050328E /* JKMemberCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BC429820FC30840050328E /* JKMemberCenterViewController.m */; };
+		82BC42AD20FC30B10050328E /* JKJavaScriptBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BC42A120FC30B10050328E /* JKJavaScriptBaseHandler.m */; };
+		82BC42B020FC30B10050328E /* JKJavaScriptGetAjaxHeaderHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BC42A420FC30B10050328E /* JKJavaScriptGetAjaxHeaderHandler.m */; };
+		82BC42B220FC30B10050328E /* JKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BC42A720FC30B10050328E /* JKWebViewController.m */; };
+		82BC42B320FC30B10050328E /* JKJavaScriptResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BC42A920FC30B10050328E /* JKJavaScriptResponse.m */; };
+		82BC42B420FC30B10050328E /* JKRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BC42AB20FC30B10050328E /* JKRefreshView.m */; };
 		82FCE9CC20F741EA00D19D8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCE9CB20F741EA00D19D8F /* AppDelegate.m */; };
 		82FCE9CF20F741EA00D19D8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCE9CE20F741EA00D19D8F /* ViewController.m */; };
 		82FCE9D220F741EA00D19D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FCE9D020F741EA00D19D8F /* Main.storyboard */; };
@@ -15,6 +21,23 @@
 		82FCE9DA20F741EB00D19D8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCE9D920F741EB00D19D8F /* main.m */; };
 		82FCE9E420F741EC00D19D8F /* NetworkMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCE9E320F741EC00D19D8F /* NetworkMonitorTests.m */; };
 		82FCE9EF20F741EC00D19D8F /* NetworkMonitorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCE9EE20F741EC00D19D8F /* NetworkMonitorUITests.m */; };
+		82FCE9FE20F7461D00D19D8F /* NetworkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCE9FD20F7461D00D19D8F /* NetworkMonitor.m */; };
+		82FCEA0320F746F300D19D8F /* NetworkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCEA0220F746F300D19D8F /* NetworkModel.m */; };
+		82FCEA0620F74EA400D19D8F /* NEURLSessionChallengeSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCEA0520F74EA400D19D8F /* NEURLSessionChallengeSender.m */; };
+		82FCEA1D20F74F0C00D19D8F /* NSURLProtocol+WeKitSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCEA0820F74F0900D19D8F /* NSURLProtocol+WeKitSupport.m */; };
+		82FCEA1F20F74F0C00D19D8F /* NEShakeGestureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCEA0D20F74F0900D19D8F /* NEShakeGestureManager.m */; };
+		82FCEA2020F74F0C00D19D8F /* NEURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCEA1020F74F0A00D19D8F /* NEURLSessionConfiguration.m */; };
+		82FCEA2120F74F0C00D19D8F /* NEHTTPEyeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCEA1220F74F0A00D19D8F /* NEHTTPEyeDetailViewController.m */; };
+		82FCEA2220F74F0C00D19D8F /* NEKeyboardShortcutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCEA1320F74F0A00D19D8F /* NEKeyboardShortcutManager.m */; };
+		82FCEA2320F74F0C00D19D8F /* NEHTTPEyeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCEA1620F74F0B00D19D8F /* NEHTTPEyeViewController.m */; };
+		82FCEA2420F74F0C00D19D8F /* NEHTTPEyeSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCEA1820F74F0B00D19D8F /* NEHTTPEyeSettingsViewController.m */; };
+		82FCEA2520F74F0C00D19D8F /* UIWindow+NEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCEA1920F74F0B00D19D8F /* UIWindow+NEExtension.m */; };
+		82FCEA2620F74F0C00D19D8F /* NEHTTPModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCEA1B20F74F0C00D19D8F /* NEHTTPModelManager.m */; };
+		82FCEA2720F74F0C00D19D8F /* NEMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCEA1C20F74F0C00D19D8F /* NEMapViewController.m */; };
+		82FCEA3920F75B2D00D19D8F /* JKBannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCEA3220F75B2C00D19D8F /* JKBannerModel.m */; };
+		82FCEA3A20F75B2D00D19D8F /* NSError+HJError.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCEA3720F75B2D00D19D8F /* NSError+HJError.m */; };
+		82FCEA3B20F75B2D00D19D8F /* NSObject+HJRequestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCEA3820F75B2D00D19D8F /* NSObject+HJRequestConfig.m */; };
+		A6DCC104184ABDBEFE4FC7F7 /* libPods-NetworkMonitor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE8A3C08F139C7014E05D4B /* libPods-NetworkMonitor.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +58,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75ED0D0E41FC577970299F43 /* Pods-NetworkMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkMonitor.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkMonitor/Pods-NetworkMonitor.release.xcconfig"; sourceTree = "<group>"; };
+		82BC429820FC30840050328E /* JKMemberCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKMemberCenterViewController.m; sourceTree = "<group>"; };
+		82BC429920FC30840050328E /* JKMemberCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKMemberCenterViewController.h; sourceTree = "<group>"; };
+		82BC429E20FC30B10050328E /* JKJavaScriptGetAjaxHeaderHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKJavaScriptGetAjaxHeaderHandler.h; sourceTree = "<group>"; };
+		82BC42A120FC30B10050328E /* JKJavaScriptBaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKJavaScriptBaseHandler.m; sourceTree = "<group>"; };
+		82BC42A420FC30B10050328E /* JKJavaScriptGetAjaxHeaderHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKJavaScriptGetAjaxHeaderHandler.m; sourceTree = "<group>"; };
+		82BC42A620FC30B10050328E /* JKJavaScriptBaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKJavaScriptBaseHandler.h; sourceTree = "<group>"; };
+		82BC42A720FC30B10050328E /* JKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKWebViewController.m; sourceTree = "<group>"; };
+		82BC42A820FC30B10050328E /* JKRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRefreshView.h; sourceTree = "<group>"; };
+		82BC42A920FC30B10050328E /* JKJavaScriptResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKJavaScriptResponse.m; sourceTree = "<group>"; };
+		82BC42AA20FC30B10050328E /* JKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKWebViewController.h; sourceTree = "<group>"; };
+		82BC42AB20FC30B10050328E /* JKRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRefreshView.m; sourceTree = "<group>"; };
+		82BC42AC20FC30B10050328E /* JKJavaScriptResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKJavaScriptResponse.h; sourceTree = "<group>"; };
+		82BC42B520FC31E50050328E /* JKJavaSBridgeHandleMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKJavaSBridgeHandleMacros.h; sourceTree = "<group>"; };
 		82FCE9C720F741EA00D19D8F /* NetworkMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FCE9CA20F741EA00D19D8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		82FCE9CB20F741EA00D19D8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +88,40 @@
 		82FCE9EA20F741EC00D19D8F /* NetworkMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FCE9EE20F741EC00D19D8F /* NetworkMonitorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkMonitorUITests.m; sourceTree = "<group>"; };
 		82FCE9F020F741EC00D19D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82FCE9FC20F7461D00D19D8F /* NetworkMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkMonitor.h; sourceTree = "<group>"; };
+		82FCE9FD20F7461D00D19D8F /* NetworkMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkMonitor.m; sourceTree = "<group>"; };
+		82FCEA0120F746F300D19D8F /* NetworkModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkModel.h; sourceTree = "<group>"; };
+		82FCEA0220F746F300D19D8F /* NetworkModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkModel.m; sourceTree = "<group>"; };
+		82FCEA0420F74EA400D19D8F /* NEURLSessionChallengeSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEURLSessionChallengeSender.h; sourceTree = "<group>"; };
+		82FCEA0520F74EA400D19D8F /* NEURLSessionChallengeSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEURLSessionChallengeSender.m; sourceTree = "<group>"; };
+		82FCEA0720F74F0900D19D8F /* NSURLProtocol+WeKitSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLProtocol+WeKitSupport.h"; sourceTree = "<group>"; };
+		82FCEA0820F74F0900D19D8F /* NSURLProtocol+WeKitSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLProtocol+WeKitSupport.m"; sourceTree = "<group>"; };
+		82FCEA0A20F74F0900D19D8F /* UIWindow+NEExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+NEExtension.h"; sourceTree = "<group>"; };
+		82FCEA0B20F74F0900D19D8F /* NEHTTPEyeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEHTTPEyeViewController.h; sourceTree = "<group>"; };
+		82FCEA0C20F74F0900D19D8F /* NEShakeGestureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEShakeGestureManager.h; sourceTree = "<group>"; };
+		82FCEA0D20F74F0900D19D8F /* NEShakeGestureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEShakeGestureManager.m; sourceTree = "<group>"; };
+		82FCEA0E20F74F0A00D19D8F /* NEURLSessionConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEURLSessionConfiguration.h; sourceTree = "<group>"; };
+		82FCEA0F20F74F0A00D19D8F /* NEHTTPModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEHTTPModelManager.h; sourceTree = "<group>"; };
+		82FCEA1020F74F0A00D19D8F /* NEURLSessionConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEURLSessionConfiguration.m; sourceTree = "<group>"; };
+		82FCEA1120F74F0A00D19D8F /* NEKeyboardShortcutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEKeyboardShortcutManager.h; sourceTree = "<group>"; };
+		82FCEA1220F74F0A00D19D8F /* NEHTTPEyeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEHTTPEyeDetailViewController.m; sourceTree = "<group>"; };
+		82FCEA1320F74F0A00D19D8F /* NEKeyboardShortcutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEKeyboardShortcutManager.m; sourceTree = "<group>"; };
+		82FCEA1520F74F0B00D19D8F /* NEHTTPEyeSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEHTTPEyeSettingsViewController.h; sourceTree = "<group>"; };
+		82FCEA1620F74F0B00D19D8F /* NEHTTPEyeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEHTTPEyeViewController.m; sourceTree = "<group>"; };
+		82FCEA1720F74F0B00D19D8F /* NEHTTPEyeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEHTTPEyeDetailViewController.h; sourceTree = "<group>"; };
+		82FCEA1820F74F0B00D19D8F /* NEHTTPEyeSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEHTTPEyeSettingsViewController.m; sourceTree = "<group>"; };
+		82FCEA1920F74F0B00D19D8F /* UIWindow+NEExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+NEExtension.m"; sourceTree = "<group>"; };
+		82FCEA1A20F74F0C00D19D8F /* NEMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEMapViewController.h; sourceTree = "<group>"; };
+		82FCEA1B20F74F0C00D19D8F /* NEHTTPModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEHTTPModelManager.m; sourceTree = "<group>"; };
+		82FCEA1C20F74F0C00D19D8F /* NEMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEMapViewController.m; sourceTree = "<group>"; };
+		82FCEA3220F75B2C00D19D8F /* JKBannerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKBannerModel.m; sourceTree = "<group>"; };
+		82FCEA3320F75B2C00D19D8F /* JKBannerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKBannerModel.h; sourceTree = "<group>"; };
+		82FCEA3520F75B2D00D19D8F /* NSObject+HJRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HJRequestConfig.h"; sourceTree = "<group>"; };
+		82FCEA3620F75B2D00D19D8F /* NSError+HJError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+HJError.h"; sourceTree = "<group>"; };
+		82FCEA3720F75B2D00D19D8F /* NSError+HJError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+HJError.m"; sourceTree = "<group>"; };
+		82FCEA3820F75B2D00D19D8F /* NSObject+HJRequestConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HJRequestConfig.m"; sourceTree = "<group>"; };
+		9F9BD387B379E743F83EE11E /* Pods-NetworkMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkMonitor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkMonitor/Pods-NetworkMonitor.debug.xcconfig"; sourceTree = "<group>"; };
+		BCE8A3C08F139C7014E05D4B /* libPods-NetworkMonitor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NetworkMonitor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6DCC104184ABDBEFE4FC7F7 /* libPods-NetworkMonitor.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +150,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23774BD99C0B7024953FDA2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F9BD387B379E743F83EE11E /* Pods-NetworkMonitor.debug.xcconfig */,
+				75ED0D0E41FC577970299F43 /* Pods-NetworkMonitor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		82BC429720FC30760050328E /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				82BC429B20FC30B10050328E /* JKWebViewController */,
+				82BC429920FC30840050328E /* JKMemberCenterViewController.h */,
+				82BC429820FC30840050328E /* JKMemberCenterViewController.m */,
+			);
+			path = Member;
+			sourceTree = "<group>";
+		};
+		82BC429B20FC30B10050328E /* JKWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				82BC42B520FC31E50050328E /* JKJavaSBridgeHandleMacros.h */,
+				82BC429C20FC30B10050328E /* JSHandler */,
+				82BC42AC20FC30B10050328E /* JKJavaScriptResponse.h */,
+				82BC42A920FC30B10050328E /* JKJavaScriptResponse.m */,
+				82BC42AA20FC30B10050328E /* JKWebViewController.h */,
+				82BC42A720FC30B10050328E /* JKWebViewController.m */,
+				82BC42A820FC30B10050328E /* JKRefreshView.h */,
+				82BC42AB20FC30B10050328E /* JKRefreshView.m */,
+			);
+			path = JKWebViewController;
+			sourceTree = "<group>";
+		};
+		82BC429C20FC30B10050328E /* JSHandler */ = {
+			isa = PBXGroup;
+			children = (
+				82BC42A620FC30B10050328E /* JKJavaScriptBaseHandler.h */,
+				82BC42A120FC30B10050328E /* JKJavaScriptBaseHandler.m */,
+				82BC429E20FC30B10050328E /* JKJavaScriptGetAjaxHeaderHandler.h */,
+				82BC42A420FC30B10050328E /* JKJavaScriptGetAjaxHeaderHandler.m */,
+			);
+			path = JSHandler;
+			sourceTree = "<group>";
+		};
 		82FCE9BE20F741EA00D19D8F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +202,8 @@
 				82FCE9E220F741EC00D19D8F /* NetworkMonitorTests */,
 				82FCE9ED20F741EC00D19D8F /* NetworkMonitorUITests */,
 				82FCE9C820F741EA00D19D8F /* Products */,
+				23774BD99C0B7024953FDA2E /* Pods */,
+				DD3288ABB7C092FAD49BF2FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +220,11 @@
 		82FCE9C920F741EA00D19D8F /* NetworkMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				82BC429720FC30760050328E /* Member */,
+				82FCEA3320F75B2C00D19D8F /* JKBannerModel.h */,
+				82FCEA3220F75B2C00D19D8F /* JKBannerModel.m */,
+				82FCEA3420F75B2C00D19D8F /* RequestConfig */,
+				82FCE9FF20F7462800D19D8F /* Monitor */,
 				82FCE9CA20F741EA00D19D8F /* AppDelegate.h */,
 				82FCE9CB20F741EA00D19D8F /* AppDelegate.m */,
 				82FCE9CD20F741EA00D19D8F /* ViewController.h */,
@@ -132,6 +256,66 @@
 			path = NetworkMonitorUITests;
 			sourceTree = "<group>";
 		};
+		82FCE9FF20F7462800D19D8F /* Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				82FCE9FC20F7461D00D19D8F /* NetworkMonitor.h */,
+				82FCE9FD20F7461D00D19D8F /* NetworkMonitor.m */,
+				82FCEA1720F74F0B00D19D8F /* NEHTTPEyeDetailViewController.h */,
+				82FCEA1220F74F0A00D19D8F /* NEHTTPEyeDetailViewController.m */,
+				82FCEA1520F74F0B00D19D8F /* NEHTTPEyeSettingsViewController.h */,
+				82FCEA1820F74F0B00D19D8F /* NEHTTPEyeSettingsViewController.m */,
+				82FCEA0B20F74F0900D19D8F /* NEHTTPEyeViewController.h */,
+				82FCEA1620F74F0B00D19D8F /* NEHTTPEyeViewController.m */,
+				82FCEA0F20F74F0A00D19D8F /* NEHTTPModelManager.h */,
+				82FCEA1B20F74F0C00D19D8F /* NEHTTPModelManager.m */,
+				82FCEA1120F74F0A00D19D8F /* NEKeyboardShortcutManager.h */,
+				82FCEA1320F74F0A00D19D8F /* NEKeyboardShortcutManager.m */,
+				82FCEA1A20F74F0C00D19D8F /* NEMapViewController.h */,
+				82FCEA1C20F74F0C00D19D8F /* NEMapViewController.m */,
+				82FCEA0C20F74F0900D19D8F /* NEShakeGestureManager.h */,
+				82FCEA0D20F74F0900D19D8F /* NEShakeGestureManager.m */,
+				82FCEA0E20F74F0A00D19D8F /* NEURLSessionConfiguration.h */,
+				82FCEA1020F74F0A00D19D8F /* NEURLSessionConfiguration.m */,
+				82FCEA0720F74F0900D19D8F /* NSURLProtocol+WeKitSupport.h */,
+				82FCEA0820F74F0900D19D8F /* NSURLProtocol+WeKitSupport.m */,
+				82FCEA0A20F74F0900D19D8F /* UIWindow+NEExtension.h */,
+				82FCEA1920F74F0B00D19D8F /* UIWindow+NEExtension.m */,
+				82FCEA0420F74EA400D19D8F /* NEURLSessionChallengeSender.h */,
+				82FCEA0520F74EA400D19D8F /* NEURLSessionChallengeSender.m */,
+				82FCEA0020F746D300D19D8F /* Model */,
+			);
+			path = Monitor;
+			sourceTree = "<group>";
+		};
+		82FCEA0020F746D300D19D8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82FCEA0120F746F300D19D8F /* NetworkModel.h */,
+				82FCEA0220F746F300D19D8F /* NetworkModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82FCEA3420F75B2C00D19D8F /* RequestConfig */ = {
+			isa = PBXGroup;
+			children = (
+				82FCEA3520F75B2D00D19D8F /* NSObject+HJRequestConfig.h */,
+				82FCEA3820F75B2D00D19D8F /* NSObject+HJRequestConfig.m */,
+				82FCEA3620F75B2D00D19D8F /* NSError+HJError.h */,
+				82FCEA3720F75B2D00D19D8F /* NSError+HJError.m */,
+			);
+			path = RequestConfig;
+			sourceTree = "<group>";
+		};
+		DD3288ABB7C092FAD49BF2FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCE8A3C08F139C7014E05D4B /* libPods-NetworkMonitor.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +323,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82FCE9F320F741EC00D19D8F /* Build configuration list for PBXNativeTarget "NetworkMonitor" */;
 			buildPhases = (
+				1FC2B0AF7EF39CA6EC5AEF4F /* [CP] Check Pods Manifest.lock */,
 				82FCE9C320F741EA00D19D8F /* Sources */,
 				82FCE9C420F741EA00D19D8F /* Frameworks */,
 				82FCE9C520F741EA00D19D8F /* Resources */,
+				1C1923BC36FAE91BA3EDA1F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,14 +443,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C1923BC36FAE91BA3EDA1F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NetworkMonitor/Pods-NetworkMonitor-resources.sh",
+				"${PODS_ROOT}/HJJavascriptBridge/HJJavascriptBridge/HJWebView/HJWebView.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HJWebView.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetworkMonitor/Pods-NetworkMonitor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FC2B0AF7EF39CA6EC5AEF4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetworkMonitor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		82FCE9C320F741EA00D19D8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82FCEA2020F74F0C00D19D8F /* NEURLSessionConfiguration.m in Sources */,
 				82FCE9CF20F741EA00D19D8F /* ViewController.m in Sources */,
+				82FCEA1D20F74F0C00D19D8F /* NSURLProtocol+WeKitSupport.m in Sources */,
+				82FCE9FE20F7461D00D19D8F /* NetworkMonitor.m in Sources */,
+				82FCEA0620F74EA400D19D8F /* NEURLSessionChallengeSender.m in Sources */,
+				82FCEA2220F74F0C00D19D8F /* NEKeyboardShortcutManager.m in Sources */,
+				82FCEA2520F74F0C00D19D8F /* UIWindow+NEExtension.m in Sources */,
+				82FCEA2320F74F0C00D19D8F /* NEHTTPEyeViewController.m in Sources */,
+				82BC42B320FC30B10050328E /* JKJavaScriptResponse.m in Sources */,
+				82BC42B420FC30B10050328E /* JKRefreshView.m in Sources */,
+				82FCEA3B20F75B2D00D19D8F /* NSObject+HJRequestConfig.m in Sources */,
+				82FCEA3A20F75B2D00D19D8F /* NSError+HJError.m in Sources */,
+				82BC429A20FC30840050328E /* JKMemberCenterViewController.m in Sources */,
+				82FCEA2420F74F0C00D19D8F /* NEHTTPEyeSettingsViewController.m in Sources */,
+				82FCEA0320F746F300D19D8F /* NetworkModel.m in Sources */,
 				82FCE9DA20F741EB00D19D8F /* main.m in Sources */,
+				82BC42AD20FC30B10050328E /* JKJavaScriptBaseHandler.m in Sources */,
+				82FCEA1F20F74F0C00D19D8F /* NEShakeGestureManager.m in Sources */,
+				82BC42B220FC30B10050328E /* JKWebViewController.m in Sources */,
 				82FCE9CC20F741EA00D19D8F /* AppDelegate.m in Sources */,
+				82FCEA2720F74F0C00D19D8F /* NEMapViewController.m in Sources */,
+				82FCEA3920F75B2D00D19D8F /* JKBannerModel.m in Sources */,
+				82BC42B020FC30B10050328E /* JKJavaScriptGetAjaxHeaderHandler.m in Sources */,
+				82FCEA2620F74F0C00D19D8F /* NEHTTPModelManager.m in Sources */,
+				82FCEA2120F74F0C00D19D8F /* NEHTTPEyeDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +678,7 @@
 		};
 		82FCE9F420F741EC00D19D8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9BD387B379E743F83EE11E /* Pods-NetworkMonitor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +696,7 @@
 		};
 		82FCE9F520F741EC00D19D8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75ED0D0E41FC577970299F43 /* Pods-NetworkMonitor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
