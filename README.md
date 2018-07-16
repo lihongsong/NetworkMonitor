@@ -113,10 +113,10 @@
 	+ sendAsynchronousRequest: queue: completionHandler:
 	
 	- initWithRequest: delegate: startImmediately:
-    - initWithRequest: delegate:
+        - initWithRequest: delegate:
 
-    - start
-    - cancel
+        - start
+        - cancel
 ```
 
 ### NSURLSession
